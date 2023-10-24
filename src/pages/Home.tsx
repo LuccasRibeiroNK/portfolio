@@ -16,9 +16,10 @@ const projects = [
   },
   {
     title: "Project 3",
-    description: "This is the third project I worked on.",
-    image: "https://via.placeholder.com/150",
-    link: "https://example.com/project3",
+    description: "I did this site when I was learning about React Context.",
+    image:
+      "https://ogpelnfwpiyjlhixdbkk.supabase.co/storage/v1/object/sign/site's%20screens/UsingContextTroughComponents.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzaXRlJ3Mgc2NyZWVucy9Vc2luZ0NvbnRleHRUcm91Z2hDb21wb25lbnRzLmpwZyIsImlhdCI6MTY5ODEwOTYwMywiZXhwIjoxNzI5NjQ1NjAzfQ.APa3CZJ39orl6pNOFFD4-_Kkhfpcv9XG6RLpoX-q62I&t=2023-10-24T01%3A06%3A43.259Z",
+    link: "https://ogpelnfwpiyjlhixdbkk.supabase.co/storage/v1/object/sign/site's%20screens/UsingContextTroughComponents.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzaXRlJ3Mgc2NyZWVucy9Vc2luZ0NvbnRleHRUcm91Z2hDb21wb25lbnRzLmpwZyIsImlhdCI6MTY5ODEwOTYwMywiZXhwIjoxNzI5NjQ1NjAzfQ.APa3CZJ39orl6pNOFFD4-_Kkhfpcv9XG6RLpoX-q62I&t=2023-10-24T01%3A06%3A43.259Z",
   },
   {
     title: "Project 1",
@@ -58,13 +59,17 @@ const ProjectContainer = styled.div`
   p {
     margin-bottom: 10px;
     color: #d5ef90;
+    margin-right: 20px;
   }
 
   img {
-    width: 100%;
-    max-width: 300vw;
+    width: 880%;
+    max-width: 20vw;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #d5ef90;
+    margin-left: 10px;
   }
 `;
 
