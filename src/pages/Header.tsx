@@ -13,7 +13,9 @@ const HeaderContainer = styled.div`
   height: 30px;
   max-width: 44.2%;
   margin: 0 auto;
-  background-color: blue (transparent, 0.9);
+  background-color: rgb(213, 239, 144, 0.4); // 80% opacity
+  border-bottom: 1px solid #d5f08f;
+  border-radius: 0 0 10px 10px;
 `;
 
 const Homee = styled.div`
@@ -21,7 +23,7 @@ const Homee = styled.div`
   font-weight: bold;
   margin-right: 20px;
   cursor: pointer;
-  color: #d5f08f;
+  color: #8e9679;
 `;
 
 const About = styled.div`

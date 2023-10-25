@@ -18,6 +18,9 @@ const Name = styled.div`
   font-weight: bold;
   color: #d5f08f;
   letter-spacing: 2px;
+  @media (max-width: 320px) {
+    margin-bottom: -20px;
+  }
 `;
 
 const Content = styled.div`
@@ -30,6 +33,9 @@ const Text = styled.div`
   margin: 50px;
   margin-bottom: 150px;
   margin-left: 80px;
+  @media (max-width: 320px) {
+    margin-bottom: 40px;
+  }
   .pMain {
     max-width: 1vw;
     font-size: 40px;
@@ -43,6 +49,9 @@ const Text = styled.div`
   }
   p {
     margin-top: 20px;
+    @media (max-width: 320px) {
+      margin-bottom: -10px;
+    }
   }
 `;
 
@@ -60,6 +69,10 @@ const Image = styled.img`
     height: 100px;
     max-width: 100px;
     margin-right: 50px;
+    margin-top: 70px;
+  }
+  @media (min-width: 1500px) {
+    margin-right: 10vw;
   }
 `;
 
