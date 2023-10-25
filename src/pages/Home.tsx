@@ -6,7 +6,8 @@ const projects = [
     title: "Project 1",
     description:
       "This is site is a blog where anyone can create a post with title, text and a image.",
-    fullDescription: "This is the first project I worked on.",
+    fullDescription:
+      "Frontend created with Reactjs/Vite, Typescript. Database with PostgresSQL. Deployed with Render.com.",
     image:
       "https://ogpelnfwpiyjlhixdbkk.supabase.co/storage/v1/object/sign/site's%20screens/Poster.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzaXRlJ3Mgc2NyZWVucy9Qb3N0ZXIuanBnIiwiaWF0IjoxNjk4MTkzNzk1LCJleHAiOjE3Mjk3Mjk3OTV9.-MvJHgiCHUX_n9I2pMZgbPfqrQoZwP_86XeRokV7GlI&t=2023-10-25T00%3A29%3A56.935Z",
     link: "https://your-poster-gcvw.onrender.com/",
@@ -15,7 +16,8 @@ const projects = [
     title: "Using Context Through Components",
     description:
       "With this site you can see how to useContext through components.",
-    fullDescription: "Using styled-components, ReactJS, Typescript.",
+    fullDescription:
+      "Using styled-components, ReactJS, Typescript. Deployed with Render.com.",
     image:
       "https://ogpelnfwpiyjlhixdbkk.supabase.co/storage/v1/object/sign/site's%20screens/UsingContextTroughComponents.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzaXRlJ3Mgc2NyZWVucy9Vc2luZ0NvbnRleHRUcm91Z2hDb21wb25lbnRzLmpwZyIsImlhdCI6MTY5ODEwOTYwMywiZXhwIjoxNzI5NjQ1NjAzfQ.APa3CZJ39orl6pNOFFD4-_Kkhfpcv9XG6RLpoX-q62I&t=2023-10-24T01%3A06%3A43.259Z",
     link: "https://lucas-dev-y1gj.onrender.com",
@@ -24,7 +26,8 @@ const projects = [
     title: "API with NodeJS and Express",
     description:
       "An API I made for a project connecting to a AWS SQL database. With this API I could create and delete books from my SQL database.",
-    fullDescription: "A simple API with: Javascript, Express, Mysql2, Cors.",
+    fullDescription:
+      "A simple API with: Javascript, Express, Mysql2, Cors. Deployed with Render.com.",
     image:
       "https://ogpelnfwpiyjlhixdbkk.supabase.co/storage/v1/object/sign/site's%20screens/Nodeserver.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzaXRlJ3Mgc2NyZWVucy9Ob2Rlc2VydmVyLmpwZyIsImlhdCI6MTY5ODE5NDMxNywiZXhwIjoxNzI5NzMwMzE3fQ.DDJ5BjjUBZWiOyUlLrVXeH1xTz3NxQd5V1b15y_n0H4&t=2023-10-25T00%3A38%3A38.134Z",
     link: "https://node-server-733o.onrender.com",
