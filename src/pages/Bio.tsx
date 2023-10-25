@@ -10,6 +10,7 @@ const Name = styled.div`
   padding: 10px;
   display: flex;
   margin-top: 10vh;
+  margin-left: 10vw;
   padding: 10px;
   padding-left: 50px;
   font-size: 30px;
@@ -30,11 +31,19 @@ const Content = styled.div`
 const Text = styled.div`
   flex: 1;
   text-align: left;
+
   margin: 50px;
   margin-bottom: 150px;
   margin-left: 80px;
   @media (max-width: 320px) {
     margin-bottom: 40px;
+  }
+  @media (min-width: 1500px) {
+    // margin-left: 10px;
+  }
+  @media (min-width: 1500px) {
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
   .pMain {
     max-width: 1vw;
@@ -49,6 +58,7 @@ const Text = styled.div`
   }
   p {
     margin-top: 20px;
+    font-family: "Roboto", sans-serif;
     @media (max-width: 320px) {
       margin-bottom: -10px;
     }
@@ -58,7 +68,7 @@ const Text = styled.div`
 const Image = styled.img`
   height: 200px;
   max-width: 200px;
-  margin-right: 100px;
+  margin-right: 200px;
   border-radius: 0.5rem;
   border: 2px solid;
   border-color: #d5f08f;
@@ -67,12 +77,14 @@ const Image = styled.img`
   border-color: #d5f08f;
   @media (max-width: 320px) {
     height: 100px;
-    max-width: 100px;
     margin-right: 50px;
     margin-top: 70px;
   }
   @media (min-width: 1500px) {
-    margin-right: 10vw;
+    margin-right: 15vw;
+  }
+  @media (max-width: 1501px) {
+    // margin-right: 100px;
   }
 `;
 

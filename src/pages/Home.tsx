@@ -54,7 +54,7 @@ const ProjectContainer = styled.div`
       padding: 10px;
     }
     @media (min-width: 1500px) {
-      margin-right: 10vw;
+      //   margin-right: 10vw;
     }
   }
 
@@ -84,10 +84,7 @@ const ProjectContainer = styled.div`
       width: 100%;
       margin-top: 30px;
     }
-    @media (min-width: 1500px) {
-      //   margin-right: 10vw;
-    }
-  }
+    
 `;
 
 const Home = () => {
