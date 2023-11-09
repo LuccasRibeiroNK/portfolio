@@ -38,26 +38,45 @@ const ProjectContainer = styled.div`
   max-width: 80vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-left: 5vw;
   flex-direction: column;
   margin-bottom: 20px;
-  padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   color: #d5ef90;
   @media (max-width: 320px) {
+    width: 10%;
+    // margin: auto;
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+    margin: 0 auto;
+  }
+  @media (max-width: 768px) {
     width: 100%;
     margin: auto;
-  }
+    }
+    @media (max-width: 1100px) {
+        width: 100%;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+ 
 
   h2 {
     margin-top: 30px;
     color: #d5ef90;
     @media (max-width: 320px) {
       width: 100%;
-      font-size: 12px;
+      font-size: 102px;
       padding: 10px;
     }
+    @media (max-width: 480px) {
+        width: 100%;
+        font-size: 12px;
+        padding: 10px;
+        }
     @media (min-width: 1500px) {
-      //   margin-right: 10vw;
+        margin-right: 10vw;
     }
   }
 
@@ -72,8 +91,14 @@ const ProjectContainer = styled.div`
       text-align: center;
       margin-left: 20px;
     }
+    @media (max-width: 480px) {
+        width: 80%;
+        font-size: 8px;
+        text-align: center;
+        margin-left: 20px;
+        }
     @media (min-width: 1500px) {
-      //   margin-right: 10vw;
+        margin-right: 10vw;
     }
   }
 
@@ -84,9 +109,21 @@ const ProjectContainer = styled.div`
     border: 2px solid #d5ef90;
     margin-left: 10px;
     @media (max-width: 320px) {
-      width: 100%;
+      width: 80%;
       margin-top: 30px;
     }
+    @media (max-width: 480px) {
+        width: 100%;
+        margin-top: auto;
+        }
+        @media (max-width: 768px) {
+            display: block;
+    margin: 0 auto;
+            }
+        @media (min-width: 1320px) {
+            margin-left: -10vw;
+            margin: 0 auto;
+        }
     
 `;
 
@@ -111,7 +148,7 @@ const Home = () => {
           </a>
         </ProjectContainer>
       ))}
-      <div className="hero">
+      {/* <div className="hero">
         <div className="hero__title"></div>
         <div className="cube"></div>
         <div className="cube"></div>
@@ -119,7 +156,7 @@ const Home = () => {
         <div className="cube"></div>
         <div className="cube"></div>
         <div className="cube"></div>
-      </div>
+      </div> */}
     </div>
   );
 };

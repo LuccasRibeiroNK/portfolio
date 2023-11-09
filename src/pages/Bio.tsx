@@ -7,19 +7,22 @@ const Container = styled.div`
 `;
 
 const Name = styled.div`
-  padding: 10px;
-  display: flex;
-  margin-top: 10vh;
-  margin-left: 10vw;
-  padding: 10px;
-  padding-left: 50px;
-  font-size: 30px;
-  justify-content: left;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  color: #d5f08f;
-  letter-spacing: 2px;
   @media (max-width: 320px) {
+    // padding: 10px;
+    display: flex;
+    margin-top: 10vh;
+    // margin-left: 10vw;
+    // padding: 10px;
+    // padding-left: 50px;
+    font-size: 30px;
+    // justify-content: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #d5f08f;
+    letter-spacing: 2px;
+    margin-left: 60px;
+  }
+  @media (max-width: 480px) {
     margin-bottom: -20px;
   }
 `;
@@ -36,10 +39,12 @@ const Text = styled.div`
   margin-bottom: 150px;
   margin-left: 80px;
   @media (max-width: 320px) {
-    margin-bottom: 40px;
   }
+  @media (max-width: 480px) {
+  }
+
   @media (min-width: 1500px) {
-    // margin-left: 10px;
+    margin-left: 10px;
   }
   @media (min-width: 1500px) {
     margin-left: 10vw;
@@ -52,8 +57,17 @@ const Text = styled.div`
     font-weight: bold;
     color: #d5f08f;
     letter-spacing: 4px;
+    @media (max-width: 320px) {
+      font-size: 20px;
+      margin-bottom: -100px;
+      margin-top: 0px;
+      margin-left: 10px;
+    }
     @media (max-width: 480px) {
       font-size: 20px;
+    }
+    @media (max-width: 720px) {
+      font-size: 30px;
     }
   }
   p {
@@ -61,6 +75,14 @@ const Text = styled.div`
     font-family: "Roboto", sans-serif;
     @media (max-width: 320px) {
       margin-bottom: -10px;
+      margin-left: 10px;
+    }
+    @media (max-width: 480px) {
+      height: 150px;
+      //   margin-right: 50px;
+      margin-top: 70px;
+    }
+    @media (max-width: 720px) {
     }
   }
 `;
@@ -77,14 +99,24 @@ const Image = styled.img`
   border-color: #d5f08f;
   @media (max-width: 320px) {
     height: 100px;
-    margin-right: 50px;
+    margin-left: -200px;
+  }
+  @media (max-width: 480px) {
+    height: 100px;
     margin-top: 70px;
+    margin-right: 100px;
   }
-  @media (min-width: 1500px) {
-    margin-right: 15vw;
+  @media (max-width: 720px) {
+    // height: 150px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 40px;
   }
-  @media (max-width: 1501px) {
-    // margin-right: 100px;
+  @media (max-width: 720px) {
+    margin-top: 85px;
+  }
+  @media (max-width: 1100px) {
+    // height: 200px;
   }
 `;
 
