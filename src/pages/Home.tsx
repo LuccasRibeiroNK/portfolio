@@ -3,7 +3,7 @@ import Bio from "./Bio";
 
 const projects = [
   {
-    title: "Project 1",
+    title: "Your_Poster",
     description:
       "This is site is a blog where anyone can create a post with title, text and a image.",
     fullDescription:
@@ -34,6 +34,28 @@ const projects = [
   },
 ];
 
+const H1 = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: #d5ef90;
+  margin-bottom: 10px;
+  @media (max-width: 320px) {
+    width: 100%;
+    font-size: 102px;
+    padding: 10px;
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+  }
+  @media (min-width: 1500px) {
+    margin-right: 10vw;
+  }
+`;
+
 const ProjectContainer = styled.div`
   max-width: 80vw;
   display: grid;
@@ -43,6 +65,8 @@ const ProjectContainer = styled.div`
   margin-bottom: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   color: #d5ef90;
+  padding: 20px;
+  
   @media (max-width: 320px) {
     width: 10%;
     // margin: auto;
@@ -54,14 +78,34 @@ const ProjectContainer = styled.div`
   @media (max-width: 768px) {
     width: 100%;
     margin: auto;
-    }
-    @media (max-width: 1100px) {
+}
+@media (max-width: 1100px) {
+        padding: 20px;
         width: 100%;
         margin-left: 10vw;
         margin-right: 10vw;
     }
+   
  
-
+.h1Projects{
+    margin-left: 10vw;
+    font-size: 102px;
+    @media (max-width: 320px) {
+        width: 100%;
+        font-size: 102px;
+        padding: 10px;
+      }
+      @media (max-width: 480px) {
+          width: 100%;
+          font-size: 12px;
+          padding: 10px;
+          }
+      @media (min-width: 1500px) {
+          margin-right: 10vw;
+          font-size: 102px;
+      }
+    
+}
   h2 {
     margin-top: 30px;
     color: #d5ef90;
@@ -132,7 +176,9 @@ const Home = () => {
     <div>
       <Bio />
       <hr />
-      <h1>My Projects</h1>
+      <H1>
+        <h1 className="h1Projects">My Projects</h1>
+      </H1>
       {projects.map((project) => (
         <ProjectContainer key={project.title}>
           <div>

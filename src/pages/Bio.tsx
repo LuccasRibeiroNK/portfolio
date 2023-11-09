@@ -24,6 +24,20 @@ const Name = styled.div`
   }
   @media (max-width: 480px) {
     margin-bottom: -20px;
+    margin-top: 10vh;
+    margin-left: 10px;
+    font-size: 30px;
+  }
+  @media (max-width: 720px) {
+    margin-left: 10px;
+    margin-top: 10vh;
+    font-size: 30px;
+  }
+  @media (min-width: 1500px) {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    font-size: 30px;
   }
 `;
 
@@ -68,6 +82,8 @@ const Text = styled.div`
     }
     @media (max-width: 720px) {
       font-size: 30px;
+    }
+    @media (min-width: 1500px) {
     }
   }
   p {
